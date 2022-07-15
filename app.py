@@ -1,10 +1,3 @@
-!pip -q install streamlit > /dev/null
-!pip -q install pyngrok > /dev/null
-!wget https://www.dropbox.com/s/072b5vf4b33bu1l/emotion_detection_model_for_streamlit.h5 > /dev/null
-!wget https://www.dropbox.com/s/p52z1qle0x1uf6f/happy.png > /dev/null
-
-!pip uninstall tornado -y
-!yes | pip install tornado==5.1.0
 
 import streamlit as st
 import tensorflow as tf
